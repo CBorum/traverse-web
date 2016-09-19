@@ -1,0 +1,23 @@
+{
+  "name": "traverse",
+  "description": "",
+  "main": ".bin/www",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/CBorum/traverse-web",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^1.0.26",
+    "materialize": "^0.97.7",
+    "vue-resource": "^1.0.2"
+  }
+}

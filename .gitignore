@@ -1,4 +1,7 @@
-#
+#bower
+public/bower_components
+
+# idea
 .idea
 
 # Logs
