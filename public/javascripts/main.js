@@ -20,7 +20,7 @@ var vm = new Vue({
             console.log(signup)
             Vue.http.post('/', signup).then(function (response) {
                 if (response.body === 'ok') {
-                    this.signedUp = true
+                    vm.signedUp = true
                     // todo better feedback
                     alert('Signed up')
                 } else {
