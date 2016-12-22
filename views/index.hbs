@@ -1,22 +1,14 @@
-<!--<nav>
-    <div class="nav-wrapper cyan lighten-3">
-        <a href="#" class="brand-logo center">Traverse</a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a href="#">Docs</a></li>
-            <li><a href="#">API</a></li>
-        </ul>
-    </div>
-</nav>-->
 <div class="container" id="app">
     <div class="row white-text">
-        <br>
-        <br>
-        <br>
-        <h1 class="center">{{title}}</h1>
-        <p class="center">All new travel app coming this winter(great timing xD)</p>
+        <h1 class="center">Traverse</h1>
+        <p class="center">All new travel app out now!</p>
+        <a href="https://play.google.com/store/apps/details?id=com.cborum.traverse">
+            <img class="google-play" alt="Get it on Google Play"
+                    src="images/google-play-badge.png"/>
+        </a>
         <p class="center">Sign up for newsletter here</p>
         <form v-on:submit.prevent="onSubmit">
-            <div  v-show="!signedUp" class="input-field col s6 offset-s3">
+            <div v-show="!signedUp" class="input-field col s6 offset-s3">
                 <label for="email">Email</label>
                 <input v-model="email" name="email" id="email" type="text">
             </div>

@@ -4,7 +4,7 @@ var mongo = require('../db/mongo')
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.render('index', {title: 'traverse'});
+    res.render('index', {title: 'Bonier - Traverse'});
 });
 
 function validateEmail(email) {
